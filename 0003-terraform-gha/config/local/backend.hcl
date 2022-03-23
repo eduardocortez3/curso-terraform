@@ -1,0 +1,5 @@
+bucket = "tfstate-045762655454"
+key = "0003-terraform-gha/local/terraform.tfstate"
+region = "eu-central-1"
+profile = "corteztech"
+dynamodb_table = "tflock-tfstate-045762655454"

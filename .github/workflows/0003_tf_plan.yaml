@@ -3,7 +3,7 @@ name: Create terraform plan on folder 0003-terraform-gha
 on:
   pull_request:
     paths:
-      - '0003-terraform-gha'
+      - '0003-terraform-gha/**'
 
 env:
   AWS_ACCESS_KEY_ID: ${{secrets.AWS_ACCESS_KEY_ID}}

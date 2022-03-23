@@ -10,5 +10,6 @@ resource "aws_instance" "web" {
   tags = {
     Name = "${var.environment}: EC2 create by GHA"
     Env  = var.environment
+    Type = var.instance_type
   }
 }

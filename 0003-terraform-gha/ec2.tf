@@ -8,7 +8,7 @@ resource "aws_instance" "web" {
   ami           = data.aws_ami.ubuntu.id
   instance_type = var.instance_type
   tags = {
-    Name = "${var.environment}: EC2 Criada por GHA"
+    Name = "${var.environment}: EC2 Criada por GHA--"
     Env  = var.environment
     Type = var.instance_type
   }
